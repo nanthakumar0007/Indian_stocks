@@ -4,7 +4,7 @@ import pytz
 import warnings
 warnings.filterwarnings('ignore')
 
-st.set_page_config(page_title="DayTrade Pro India", page_icon="🇮🇳", layout="centered")
+st.set_page_config(page_title="Indian Profitable Stocks", page_icon="🇮🇳", layout="centered")
 
 st.markdown("""
 <style>
@@ -15,7 +15,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.title("🇮🇳 DayTrade Pro India")
+st.title("🇮🇳 Indian Profitable Stocks")
 IST = pytz.timezone('Asia/Kolkata')
 now = datetime.now(IST)
 
